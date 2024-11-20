@@ -1,0 +1,321 @@
+
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: 800; }
+
+p { color: #8f8f8f; }
+
+
+/* Heading */
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Containers */
+.container-fluid { padding: 7% 15%; }
+
+
+/* Sections */
+.colored-section {
+  background:linear-gradient(262deg, #ff7854, #fd267d);
+  color: #fff;
+}
+
+.white-section { background: #fff; }
+
+
+/* Navigation Bar */
+.navbar { padding: 0 0 4.5rem 0; }
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item { padding: 0 1.13rem; }
+
+.nav-link { font-size: 1.2rem; }
+
+
+/* Download Buttons */
+.btn-download { margin: 5% 3% 5% 0; }
+
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7% 15%;
+  text-align: left;
+}
+
+.title-img {
+  position: absolute;
+  right: 30%;
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+
+/* Features Section */
+#features {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.feature-title { font-size: 1.5rem; }
+
+.feature-box {
+  padding: 4.5%;
+  font-size: 7rem;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ff7854;
+}
+
+.icon:hover { color: #fd267d; }
+
+
+/* Testimonial Section */
+#testimonials { background: #ff7854; }
+
+.testimonial-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  margin: 1.25rem;
+  border-radius: 50%;
+}
+
+#press {
+  padding-bottom: 3%;
+  background: #ff7854;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 1.25rem 1.25rem 3.125rem 1.25rem;
+}
+
+
+/* Price Section */
+#price { padding: 6.25rem; }
+
+.price-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-column { padding: 3% 2%; }
+
+.card-heading { font-size: 1.75rem; }
+
+
+/* Footer Section */
+#footer a {
+  color: #8f8f8f;
+}
+
+#footer a:hover,
+.footer-icon:hover {
+  color: #fd267d;
+  text-decoration: none;
+}
+
+.footer-icon {
+  margin: 1.2rem .6rem;
+  color: #000;
+}
+
+
+/* Media Queries */
+@media(max-width:1023px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+  
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .container-fluid { padding: 3% 11%; }
+  
+  .big-heading { font-size: 3rem; }
+
+
+  
+  .section-heading,
+  .testimonial-heading,
+  .price-heading { font-size: 2rem; }
+
+  .navbar { padding: 0 0 2.5rem 0; }
+
+  .navbar-brand { font-size: 1.5rem; }
+
+  .nav-item { padding: 0 1.13rem; }
+
+  .nav-link { font-size: 1.2rem; }
+
+  .feature-box { padding: 3%; }
+  
+  #price { padding: 2.5rem; }
+
+  .card-heading { font-size: 1.2rem; }
+
+  .btn-download {
+    /* padding: .27rem .5rem; */
+    font-size: 1rem;
+  }
+}
+
+@media(max-width:767px) {
+  .big-heading { font-size:1.6rem; }
+
+  .section-heading,
+  .price-heading { font-size: 1.5rem; }
+
+  .testimonial-heading { font-size: 1rem; }
+
+  .container-fluid { padding: 3% 11%; }
+
+  .navbar-brand { font-size: 1.2rem; }
+
+  .nav-link { font-size: 1rem; }
+
+  .feature-box { padding: 2%; }
+
+  .press-logo { width: 10%; }
+
+  #price { padding: 2rem; }
+
+  .card-heading { font-size: 1rem; }
+}
+   
+
+
+
+   /*formatações do PI 1*/
+
+
+  .confParagrafo{
+      color: #f72585;;
+  }
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 60px;
+    padding: 30px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px;
+    width: 200%;
+    height: 100%;
+    padding: 10;
+    margin: 10;
+}
+
+
+
+
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 30;
+    font-size: 2.3em;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #f72585;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+    color: #f72585;
+}
+
+
+.tamanhoFoto{
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  height: 400px;
+}
+
+
+
+
+.btnPI1 {
+    background-color: #f72585;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btnPI1:hover {
+    transform: scale(1.05);
+    background-color: #ff0676;
+
+}
+
+
+
+
+
+}

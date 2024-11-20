@@ -1,0 +1,1101 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+/* Navbar */
+
+
+
+.navbar {
+	display: flex;
+	padding: 10px 0;
+	justify-content: space-around;
+	width: 100%;
+	height: 44px;
+	background-color:;
+}
+
+.navbar i {
+	font-size: 1.5rem;
+	color: ;
+}
+
+.navbar i:nth-child(1) {
+	color: white;
+}
+
+.photo-and-actions {
+	height: calc(100vh - 44px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Photo */
+.photo {
+	width: 98vw;
+	height: 85vh;
+	background: url('../img/l.jpeg') center center/cover;
+	border-radius: 10px;
+	display: flex;
+	align-items: flex-end;
+	color: #eee;
+	box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+}
+
+.photo-text {
+	padding: 15px;
+	background: rgb(2, 0, 36);
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		180deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(35, 34, 65, 0) 0%,
+		rgba(0, 0, 0, 0.7) 52%
+	);
+	border-radius: 10px;
+}
+
+.photo-name-and-age {
+	display: flex;
+	align-items: center;
+	margin-bottom: 6px;
+}
+
+.photo-name-and-age h2 {
+	font-size: 1.8rem;
+}
+
+.photo-name-and-age h2:nth-child(2) {
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+.photo-bio {
+	line-height: 1.7rem;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+/* Actions */
+.actions {
+	flex: auto;
+	display: flex;
+	align-items: center;
+	margin: 1rem 0;
+}
+
+.action {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	font-size: 2rem;
+	box-shadow: 0 2px 6px 0 rgba(112, 125, 134, 0.14);
+}
+
+.actions .action:nth-child(1) {
+	color: ;
+}
+
+.actions .action:nth-child(2) {
+	height: 48px;
+	width: 48px;
+	font-size: 1.5rem;
+	margin: 0 1rem;
+	color: #2db1ff;
+}
+
+.actions .action:nth-child(3) {
+	color: ;
+}
+
+/* 1025px or more */
+@media (min-width: 1025px) {
+	.photo {
+		width: 367px;
+		height: 684px;
+	}
+
+	.actions {
+		flex: initial;
+	}
+
+	.photo-and-actions {
+		justify-content: center;
+	}
+
+	.navbar {
+		width: 400px;
+		margin: auto;
+	}
+
+	#b{
+		color: ;
+	}
+
+
+
+/*Segunda foto*/
+
+
+
+/* Photo2 */
+.photo2 {
+	width: 28vw;
+	height: 85vh;
+	background: url('../img/girl2.jpeg') center center/cover;
+	border-radius: 10px;
+	display: flex;
+	align-items: flex-end;
+	color: #eee;
+	box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+}
+
+.photo-text2 {
+	padding: 15px;
+	background: rgb(2, 0, 36);
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		180deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(35, 34, 65, 0) 0%,
+		rgba(0, 0, 0, 0.7) 52%
+	);
+	border-radius: 10px;
+}
+
+.photo-name-and-age2 {
+	display: flex;
+	align-items: center;
+	margin-bottom: 6px;
+}
+
+.photo-name-and-age2 h2 {
+	font-size: 1.8rem;
+}
+
+.photo-name-and-age h2:nth-child(2) {
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+.photo-bio2 {
+	line-height: 1.7rem;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+
+}
+
+/* 1025px or more */
+@media (min-width: 1025px) {
+	.photo {
+		width: 367px;
+		height: 684px;
+	}
+
+	.actions {
+		flex: initial;
+	}
+
+	.photo-and-actions {
+		justify-content: center;
+	}
+
+	.navbar {
+		width: 400px;
+		margin: auto;
+	}
+
+
+
+
+
+
+/*Terceira foto*/
+
+
+
+/* Photo3 */
+.photo3 {
+	width: 28vw;
+	height: 85vh;
+	background: url('../img/Dean.jpg') center center/cover;
+	border-radius: 10px;
+	display: flex;
+	align-items: flex-end;
+	color: #eee;
+	box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+}
+
+.photo-text3 {
+	padding: 15px;
+	background: rgb(2, 0, 36);
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		180deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(35, 34, 65, 0) 0%,
+		rgba(0, 0, 0, 0.7) 52%
+	);
+	border-radius: 10px;
+}
+
+.photo-name-and-age3 {
+	display: flex;
+	align-items: center;
+	margin-bottom: 6px;
+}
+
+.photo-name-and-age3 h2 {
+	font-size: 1.8rem;
+}
+
+.photo-name-and-age h2:nth-child(2) {
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+.photo-bio3 {
+	line-height: 1.7rem;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+
+/* 1025px or more */
+@media (min-width: 1025px) {
+	.photo {
+		width: 367px;
+		height: 684px;
+	}
+
+	.actions {
+		flex: initial;
+	}
+
+	.photo-and-actions {
+		justify-content: center;
+	}
+
+	.navbar {
+		width: 400px;
+		margin: auto;
+	}
+
+
+
+
+/*Quarta foto*/
+
+
+
+/* Photo4 */
+.photo4 {
+	width: 28vw;
+	height: 85vh;
+	background: url('../img/Paola.jpg') center center/cover;
+	border-radius: 10px;
+	display: flex;
+	align-items: flex-end;
+	color: #eee;
+	box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+}
+
+.photo-text4 {
+	padding: 15px;
+	background: rgb(2, 0, 36);
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		180deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(35, 34, 65, 0) 0%,
+		rgba(0, 0, 0, 0.7) 52%
+	);
+	border-radius: 10px;
+}
+
+.photo-name-and-age4 {
+	display: flex;
+	align-items: center;
+	margin-bottom: 6px;
+}
+
+.photo-name-and-age4 h2 {
+	font-size: 1.8rem;
+}
+
+.photo-name-and-age h2:nth-child(2) {
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+.photo-bio4 {
+	line-height: 1.7rem;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+
+/* 1025px or more */
+@media (min-width: 1025px) {
+	.photo {
+		width: 367px;
+		height: 684px;
+	}
+
+	.actions {
+		flex: initial;
+	}
+
+	.photo-and-actions {
+		justify-content: center;
+	}
+
+	.navbar {
+		width: 400px;
+		margin: auto;
+	}
+
+
+
+
+/*Quita foto*/
+
+
+
+/* Photo5 */
+.photo5 {
+	width: 28vw;
+	height: 85vh;
+	background: url('../img/Sam.jpg') center center/cover;
+	border-radius: 10px;
+	display: flex;
+	align-items: flex-end;
+	color: #eee;
+	box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+}
+
+.photo-text5 {
+	padding: 15px;
+	background: rgb(2, 0, 36);
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		180deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(35, 34, 65, 0) 0%,
+		rgba(0, 0, 0, 0.7) 52%
+	);
+	border-radius: 10px;
+}
+
+.photo-name-and-age5 {
+	display: flex;
+	align-items: center;
+	margin-bottom: 6px;
+}
+
+.photo-name-and-age5 h2 {
+	font-size: 1.8rem;
+}
+
+.photo-name-and-age h2:nth-child(2) {
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+.photo-bio5 {
+	line-height: 1.7rem;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+
+/* 1025px or more */
+@media (min-width: 1025px) {
+	.photo {
+		width: 367px;
+		height: 684px;
+	}
+
+	.actions {
+		flex: initial;
+	}
+
+	.photo-and-actions {
+		justify-content: center;
+	}
+
+	.navbar {
+		width: 400px;
+		margin: auto;
+	}
+
+
+
+/*Sexta foto*/
+
+
+
+/* Photo6 */
+.photo6 {
+	width: 28vw;
+	height: 85vh;
+	background: url('../img/Celia.jpg') center center/cover;
+	border-radius: 10px;
+	display: flex;
+	align-items: flex-end;
+	color: #eee;
+	box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+}
+
+.photo-text6 {
+	padding: 15px;
+	background: rgb(2, 0, 36);
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		180deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(35, 34, 65, 0) 0%,
+		rgba(0, 0, 0, 0.7) 52%
+	);
+	border-radius: 10px;
+}
+
+.photo-name-and-age6 {
+	display: flex;
+	align-items: center;
+	margin-bottom: 6px;
+}
+
+.photo-name-and-age6 h2 {
+	font-size: 1.8rem;
+}
+
+.photo-name-and-age h2:nth-child(2) {
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+.photo-bio6 {
+	line-height: 1.7rem;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+
+/* 1025px or more */
+@media (min-width: 1025px) {
+	.photo {
+		width: 367px;
+		height: 684px;
+	}
+
+	.actions {
+		flex: initial;
+	}
+
+	.photo-and-actions {
+		justify-content: center;
+	}
+
+	.navbar {
+		width: 400px;
+		margin: auto;
+	}
+
+
+
+/* Photo7 */
+.photo7 {
+	width: 28vw;
+	height: 85vh;
+	background: url('../img/arlequina.jpg') center center/cover;
+	border-radius: 10px;
+	display: flex;
+	align-items: flex-end;
+	color: #eee;
+	box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+}
+
+.photo-text7 {
+	padding: 15px;
+	background: rgb(2, 0, 36);
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		180deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(35, 34, 65, 0) 0%,
+		rgba(0, 0, 0, 0.7) 52%
+	);
+	border-radius: 10px;
+}
+
+.photo-name-and-age7 {
+	display: flex;
+	align-items: center;
+	margin-bottom: 6px;
+}
+
+.photo-name-and-age7 h2 {
+	font-size: 1.8rem;
+}
+
+.photo-name-and-age h2:nth-child(2) {
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+.photo-bio7 {
+	line-height: 1.7rem;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+
+/* 1025px or more */
+@media (min-width: 1025px) {
+	.photo {
+		width: 367px;
+		height: 684px;
+	}
+
+	.actions {
+		flex: initial;
+	}
+
+	.photo-and-actions {
+		justify-content: center;
+	}
+
+	.navbar {
+		width: 400px;
+		margin: auto;
+	}
+
+
+
+
+
+
+
+
+
+
+
+/*login*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #f72585;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+    color: #f72585;
+}
+
+.btn {
+    background-color: #f72585;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #ff0676;
+
+}
+
+#formatacao1{
+ color: black;
+ font-size: 14px;
+ font-weight: 600;
+ text-align: center;
+
+}
+
+
+/*
+* 
+* @author Luis Paulo da Silva de Siqueira
+-----------------------------*/
+
+
+
+/*Limpar formatações padrão-----------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/**************Formatações globais******************/
+
+
+
+
+
+
+/*******************Ids**************************/
+
+/* Layout-----------------------------*/
+
+#formatacao {
+	font-size: 16px;
+  	font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	/*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
+	color: black; 
+
+	padding: 0;
+	margin: 0;
+	 /*background-color: #454d6b; Fundo escuro cinza */
+	background-color: deeppink;
+
+}
+
+
+/* Menu de opções fixo no inicio-----------------------------*/
+
+#navegacao {
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 55px;
+	position: 100%;
+	width: auto;
+	top: 0;
+	color: black;
+
+}
+
+#area {
+	width: 150%;
+	margin: 0 auto;
+	color: black;
+	
+}
+
+/* tamanho da área de colocar conteudo-----------------------------*/
+
+#area-principal {
+	width: auto;
+	margin: 55px auto 10px auto;
+	color: black;
+
+
+}
+
+#postagem {
+	
+	padding: 10px;
+	margin-bottom: 10px;
+	font color: black;
+	color: black;
+}
+
+
+/****Formatação do menu / links ************/
+
+
+/*Classes*/
+
+.verde {color: ;}
+
+
+
+.postado {
+	border-left: 5px solid  black;  /*A cor do traço-->*/ 
+	padding-left: 5px;
+	display: block;
+	margin-top: 20px;
+	background:url("img/fundo.jpg");
+}
+
+
+.img_osasco{
+	text-align: center;
+	display: block;
+	margin:0 10px 5px 0;
+	left: 30px auto;
+	right: 30px auto;
+}
+
+/****************Ultima parte*********************/
+.rodape {
+	font-size: 14px;
+	padding-left: 5px;
+	display: block;
+	margin-top: 0px;
+	background: #fff;
+	width: 100%;
+	margin: 10px auto 10px auto;
+	
+
+}
+
+
+
+.data-postagem {
+	font-size: 14px;
+	border-bottom: 1px solid  black;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+
+}
+
+
+
+.fundoPInder{
+
+	background-image: url(img/fundoPInder);
+}
+
+ /**********************************/
+
+
+
+/****************************************************
+***********************Formatação do menu************/
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+/*Links não visitados*/
+a:link {
+	color: #838383;
+}
+
+/*Links vistados*/
+a:visited {
+	color: #838383;
+}
+
+/*Links hover*/
+a:hover {
+	  background:linear-gradient(262deg, #ff7854, #fd267d);
+  color: #fff;
+}
+
+/*Links active*/
+a:active {
+	color: #535353;
+}
+
+
+
+
+/*Formatação da tela de login do teste 2*/
+
+
+
+
+ 
+/* esconde as ancoras da tela */
+a.links{
+  display: none;
+}
+
+
+
+
+
+}
+
+h1:after{
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+
+}
+
+
+p{
+  margin-bottom:15px;
+}
+ 
+.content p:first-child{
+  margin: 0px;
+}
+ 
+label{
+  color: ;
+  position: relative;
+}
+
+/* placeholder */
+::-webkit-input-placeholder  {
+  color: ; 
+  font-style: italic;
+}
+ 
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: ;
+  font-style: italic;
+}
+
+
+input {
+  outline: none;
+}
+ 
+/*estilo dos input,  menos o checkbox */
+input:not([type="checkbox"]){
+  width: 95%;
+  margin-top: 4px;
+  padding: 10px;    
+  border: 1px solid #b2b2b2;
+
+/*Teste de respansividade*/
+ 
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+       
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+/*************@Query respansividade*************/
+
+ 
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.btn-custom {
+		margin: 10px 15px;
+		font-size: 2em;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	h1 {
+		font-size: 3em;
+	}
+	.btn-custom {
+		margin: 10px 15px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 4em;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1 {
+		font-size: 5em;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 6em;
+	}
+}
+
+
+
+}

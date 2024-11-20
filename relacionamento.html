@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Author" content="Luís Paulo da Silva de Siqueira, Bruna Karina Pacheco"> 
+  <meta name="descriptiom" content="Site de encontro de alunos para montagem dos grupos de projeto integrador da UNIVESP.">
+  <meta charset="Keywords" content= "Encontra membros do PI, Projeto Integrador, UNIVESP, Cursos,EAD, Polo Osasco">
+
+    <link rel="stylesheet" href="styles01.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,800,900|Ubuntu&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a489e0e418.js"></script>
+  <!-- HTML5Shiv -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <![endif]-->
+  
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" href="img/pngwing.com.png">   <!--Coloca o logo ou imagem -->
+  <title> PInder | Relacionamento</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="telausuario3.html">Voltar</a></li>
+         
+        </ul>
+    </div>
+    <div class="chat-container">
+        <div class="sidebar">
+            <h2>Contatos</h2>
+            <div class="contact" onclick="openChat('Luis Paulo da Silva de Siqueira')">
+                <img src="img/l.jpeg" alt="Luis Paulo da Silva de Siqueira">
+                <span>Luis Paulo da Silva de Siqueira</span>
+            </div>
+                <div class="contact" onclick="openChat('Celia Aparecida dos Santos Oliveira')">
+                <img src="img/Celia.jpg" alt="Celia Aparecida dos Santos Oliveira">
+                <span>Celia Aparecida dos Santos Oliveira</span>
+            </div>
+
+            <div class="contact" onclick="openChat('Dean Campbell Winchester')">
+                <img src="img/Dean.jpg" alt="Dean Campbell Winchester">
+                <span>Dean Campbell Winchester</span>
+            </div>
+
+        <div class="contact" onclick="openChat('Paola Marques Sobrinho de Almeida')">
+                <img src="img/Paola.jpg" alt="Paola Marques Sobrinho de Almeida">
+                <span>Paola Marques Sobrinho de Almeida</span>
+            </div>
+                    <div class="contact" onclick="openChat('Samuel Campbell Winchester')">
+                <img src="img/Sam.jpg" alt="Samuel Campbell Winchester">
+                <span>Samuel Campbell Winchester</span>
+            </div>
+                    <div class="contact" onclick="openChat('Harleen Frances Quinzel')">
+                <img src="img/arlequina.jpg" alt="Harleen Frances Quinzel">
+                <span>Harleen Frances Quinzel</span>
+            </div>
+
+            <div class="contact" onclick="openChat('Iris Wes')">
+                <img src="img/Ires.jpg" alt="Iris Wes">
+                <span>Iris West</span>
+            </div>
+
+            <div class="contact" onclick="openChat('Bartholomew Henry')">
+                <img src="img/Bery.jpg" alt="Bartholomew Henry">
+                <span>Bartholomew Henry</span>
+            </div>
+
+
+
+     <div class="contact" onclick="openChat('Bruna Pacheco')">
+                <img src="img/lady-img.jpg" alt="Bruna Pacheco'">
+                <span>Bruna Pacheco</span>
+            </div>
+
+
+
+        </div>
+        <div class="chat-area" id="chatArea">
+            <div class="messages" id="messages">
+                <p>Selecione um contato para começar a conversar.</p>
+            </div>
+            <div class="input-area" id="inputArea">
+                <input type="text" id="messageInput" placeholder="Digite sua mensagem...">
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <footer class="rodape">
+
+<p align="center" class="container"> <b>  &copy;  Todos os direitos reservados ao PInder | UNIVESP 2024. <b>  </p>
+
+    </footer> <!-- (html 5) footer = rodapé-->
+
+    <script>
+        function openChat(contactName) {
+            const chatArea = document.getElementById('chatArea');
+            const messages = document.getElementById('messages');
+
+            // Mostra a área de chat e limpa as mensagens
+            chatArea.style.display = 'flex';
+            messages.innerHTML = `<p><strong>${contactName}:</strong> Olá! Como você está?</p>`;
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const messages = document.getElementById('messages');
+
+            // Obtém a mensagem do input
+            const messageText = input.value;
+
+            // Adiciona a nova mensagem se não estiver vazia
+            if (messageText.trim()) {
+                messages.innerHTML += `<p><strong>Você:</strong> ${messageText}</p>`;
+                input.value = ''; // Limpa o campo de input
+                messages.scrollTop = messages.scrollHeight; // Rola para a última mensagem
+            }
+        }
+    </script>
+</body>
+</html>
